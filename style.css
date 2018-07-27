@@ -1,0 +1,309 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    font-family: "Roboto", "Arial", Sans-serif;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+header {
+    height: 445px;
+    font-family: "Montserat", Sans-serif;
+    background: radial-gradient(70% 150% at left bottom, #F88FA7 70%, #AA66EA 80%, #8A2BE2 90%);
+    border: none;
+    text-align: center;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    position: relative; 
+}
+.menu {
+    display: flex;
+    text-transform: uppercase;
+    list-style: none;
+    padding-top: 20px;
+    justify-content: center;
+    margin: 0;
+    padding-bottom: 60px;
+    width: 100%;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 35px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    color: #40235E;
+}
+.menu li a:hover {
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+.baner {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+header h1 {
+    font-size: 116px;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+header p{
+    font-size: 21px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    margin: 0;
+}
+.wave1 {
+   max-width: 30%;
+   position: absolute;
+   float: right;
+   top: 300px;
+   right:-5px;
+   height: auto;
+}
+.wave2 {
+    max-width: 50%;
+    position: absolute;
+    float: right;
+    top: 410px;
+    right:-5px;
+    height: auto;
+}
+.st0{fill:none;stroke:#BC70FE;stroke-width:30;stroke-miterlimit:10;}
+
+/* middle part one and two*/
+#projects {
+    margin-top: 80px;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.container {
+    width: 75%;
+    margin: 20px auto;
+}
+.number {
+    position: relative;
+    text-align: left;
+    flex-basis: 50%;
+    font-family: "Montserrat", sans-serif;
+    color: #666699;
+}
+.text {
+    flex-basis: 50%;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -40%);
+    width: 80%;
+}
+.text h2 {
+    font-size: 27px;
+    font-family: "Montserrat", sans-serif;
+    color: #5f1b98;
+    padding-left: 15%;
+    margin: 30px 0;
+}
+.text p {
+    text-align: left;
+    z-index: 3;
+    position: relative;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    padding-right: 10px;
+}
+.number-one {
+    color: #e579d7;
+    font-size: 247px;
+    line-height: 247px;
+    font-weight: 700;
+    margin: 0;
+   
+    font-family: "Montserrat", sans-serif;
+
+}
+button {
+    color: purple;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: 2px solid #AA66EA;    
+}
+button:hover {
+    cursor: pointer;
+    background-color: #F88FA7
+}
+.picture {
+    position: relative;
+    align-items: center;
+    vertical-align: middle;
+    flex-basis: 50%;
+    bottom: 0px;
+}
+.images img {
+    width: 100%;
+    position: absolute;
+    height: auto;
+    bottom: 0;
+}
+#company-culture {
+    position: relative;
+    margin-top: 40px;
+    display: flex;
+}
+.second-image {
+    max-width: 350px;
+    margin-right: 30px;
+    object-fit: cover;
+}
+.crazy-ideas {
+    width: 100%;
+    background-color: #fff;
+    height: 400px;
+    background-image: url(./img/fullbg.jpg);
+    background-size: cover;
+    background-position: bottom;
+    /* -webkit-transform: rotate(180deg); */
+    position: relative;
+    -webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+#mission h4 {
+    color: #fff;
+    padding-top: 100px;
+    font-size: 116px;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    /* left: 50%; */
+    transform: translate(-50%, -50%);
+    -webkit-transform: rotate(180deg);
+}
+.wave3 {
+    width: 40%;
+    float: right;
+    padding: 0px;
+    /* position: absolute; */
+    bottom: 0; 
+}
+.experience{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 60px;
+    position: relative;
+}
+.experience number {
+    flex-basis: 60%;
+}
+.number-three {
+    color: #e421b4;
+    top: 70px;
+}
+.experience .text h2 {
+    color: #5f1b98;
+    padding-left: 30%;
+    margin: 40px 0 20px;
+}
+.experience .text p {
+    color: #440c74;
+    width: 90%;
+    margin: 0 auto;
+}
+.experience .picture {
+    flex-basis: 50%;
+    align-items: center;
+    position: relative;
+    vertical-align: middle;
+}
+.experience .picture img {
+    max-width: 100%;
+    height: auto;
+    margin: auto auto;
+}
+#contact {
+    margin-top: 50px;
+    height: 445px;
+    background:radial-gradient(70% 150% at left bottom, #F88FA7 70%, #AA66EA 80%, #8A2BE2 90%);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#contact article {
+    flex-basis: 50%;
+}
+#contact p {
+    font-size: 63px;
+    font-weight: 700;
+    color: #440c74;
+    margin-top: 40px;
+    text-align: center;
+    font-family: "Montserrat";
+}
+#contact form {
+    margin-top: 30px;
+}
+#contact form label {
+    display: block;
+    color: #440c74;
+    padding: 1em 0;
+    font-family: "Montserrat";
+}
+#contact form input {
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    border-bottom: 2px solid #440c74;
+    width: 60%;
+    margin: 0 auto;
+    outline: none;
+}
+#contact form textarea {
+    background: transparent;
+    box-shadow: none;
+    border: 2px solid #440c74;
+    width: 60%;
+    margin: 0 auto;
+    height: 4em;
+    outline: none;
+}
+#contact button{
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    font-weight: 700;
+    width: 20%;
+}
+#contact button a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Montserrat";
+}
+footer {
+    flex-basis: 100%;
+    background: linear-gradient(to right top, rgb(254, 106, 131), rgb(147, 37, 240));
+    margin: 0;
+    padding:0;
+}
+footer p{
+    color: #54187a;
+    text-transform: uppercase;
+    padding-left: 15%;
+    margin: 0;
+    padding:0;
+}
+footer p a{
+    text-decoration: none;
+    color: #54187a
+}
